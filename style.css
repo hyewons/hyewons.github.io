@@ -1,9 +1,4 @@
-/*
-Template Name: Gorgo
-Author: Levent Usta
-Author URI: http://www.aristotheme.com
-Description: A template by Aristotheme.
-*/
+
 
 /*=================================*/
 /*  Table of Contents
@@ -1556,11 +1551,13 @@ nav[role="navigation"] {
     }
     /*===== About =====*/
     .profilepic {
-    margin-bottom: 120px;
+    margin-bottom: 50px;
+    margin-left: 180px;
 	}
 
 	.profile-text {
 	margin-bottom: 40px;
+	margin-right: 200px;
 	}
 
     .intro p{
