@@ -1553,6 +1553,7 @@ nav[role="navigation"] {
     .profilepic {
     margin-bottom: 50px;
     margin-left: 180px;
+	margin-top: -180px;
 	}
 
 	.profile-text {
