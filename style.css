@@ -73,7 +73,13 @@ h1 {
     margin: 0 0 40px;
     margin-top: -30px;
 }
-
+.projecttitle {
+	font-size: 2rem;
+    letter-spacing: 1px;
+    margin: 0 0 40px;
+    margin-top: -30px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
 h2 {
     font-size: 2rem;
     margin: 0;
@@ -89,6 +95,7 @@ h4 {
 
 h5 {
     font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h6 {
@@ -669,27 +676,30 @@ nav[role="navigation"] {
 }
 .blog_item.one {
 	float: left;
-	background-image: url('img/streamlyzer.jpg');
-	background-size: 100%; 
+	background-image: url('img/racoonz.png');
+	background-size: cover; 
 	width: 50%;
+
 	
 }
 .blog_item.two {
 	float: right;
-	background-image: url('img/foodwaste.png');
-	background-color: #90d4c5;
+	background-image: url('img/tab_cover.png');
+	background-size: cover; 
 	width: 50%;
 	
 }
 .blog_item.three {
 	float: left;
-	background-color: #f79768;
+	background-image: url('img/foodwaste.png');
+	background-size: cover; 
 	width: 50%;
 
 }
 .blog_item.four {
 	float: right;
-	background-color: #83cbe8;
+	background-image: url('img/streamlyzer.jpg');
+	background-size: cover; 
 	width: 50%;
 }
 
@@ -716,7 +726,7 @@ nav[role="navigation"] {
     width: 100%;
     height: 100%;
     background-size: cover;
-    transition: all 1s;
+    transition: all .5s;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     -moz-opacity: 0;
@@ -779,7 +789,7 @@ nav[role="navigation"] {
 .profile-text {
 	float: right;
 	margin-right: 270px;
-	max-width: 35%;
+	max-width: 30%;
 	margin-top: -187px;
 	margin-bottom: 40px;
 }
@@ -900,9 +910,6 @@ nav[role="navigation"] {
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
     /*===== Titles =====*/
- body {
-    	overflow-x: hidden;
-    }
     .site-title {
         margin-bottom: 160px;
     }
