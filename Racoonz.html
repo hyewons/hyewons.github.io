@@ -77,17 +77,23 @@
     			<p class= "content1 center">
     				The city of Seattle is recognized as one of the most sustainable cities in the United States, in part due to its widespread waste sorting system. Citizens are encouraged and incentivized to sort their waste into three main categories: compostables, recyclables, and landfill waste. However, waste sorting protocols can often be tricky, especially for tourists or newcomers to the city. The inspiration for this project came from our own frustrations with waste sorting. 	
     			</p>
-    			<img src="img/recyclingproblem.png" height="auto" style="margin-top:180px; margin-right:1000px; margin-left:340px;float:left;">
+    			<div class="imgcontainer"> 
+    				<div class="bodyimg"> <img src="img/recyclingproblem.png" height="auto" style="margin-top:20px"> </div>
+    			</div>
+    			
     		</div>
     	</div>
     	<div class= "horizontal470 grey">
     		<h1 class="title1 center"> Design Question</h1>
     		<h2 class="subtitle2 center" style= "margin-top:20px">"How can we make it easier for people to identify and sort their waste, while educating users on proper waste sorting methods?" </h2>
+    		<div class="imgcontainer"> 
+    				<div class="bodyimg"> <img src="img/solution.png" height="50" style="margin-top:60px"> </div>
+    			</div>
     	
     	</div>
     	<div class= "horizontal580"> 
     		<p class= "content_left_big" >
-    				Quickly identify how to sort the waste by scanning barcode or plastic code without having to type in search
+    				Quickly identify how to sort the waste by scanning barcode or plastic code of your waste
     		</p>
     		<video class="myVideo" loop="" height="550" autoplay="autoplay" webkit-playinline="">
         		<source src="video/scan.mp4" type="video/mp4">     
@@ -95,7 +101,7 @@
       	</div>
     	<div class= "horizontal580 grey"> 
     		<p class= "content_left_big" >
-    				Find out how to throw away your waste by searching from Racoonz database 
+    				Find out how to throw away your waste by searching from our centralized database 
     		</p>
     		<video class="myVideo" loop="" height="550" autoplay="autoplay" webkit-playinline="">
         		<source src="video/search.mp4" type="video/mp4">
@@ -109,7 +115,7 @@
     	</div>
     	<div class= "horizontal580 grey"> 
     		<p class= "content_left_big" >
-    				Confused about what’s recyclable at a cafe you're at? Use Racoonz GPS to learn about waste sorting method at a particular place
+    				Confused about what’s recyclable at a cafe you're at? Use Racoonz GPS to learn about waste sorting method at a particular location
     		</p>
     		<video class="myVideo" loop="" height="550" autoplay="autoplay" webkit-playinline="">
         		<source src="video/gps.mp4" type="video/mp4">
@@ -123,9 +129,12 @@
     			<p class= "content2">
     				In order to find out how recycling is practiced in the city, we went around Seattle and observed trash cans and how people throw away waste. Observation helped us find additional insights to interviews and surveys because there's a mismatch of what people say and what people do.	
     			</p>
-    			<img src="img/observation.png" height="auto" style="margin-top:130px; margin-right:1000px; margin-left:125px;float:left;">
+    			<div class="imgcontainer"> 
+    				<div class="bodyimg"> <img src="img/observation.png" height="auto"> </div>
+    			</div>
+    		
 
-    		<h2 class="subtitle2">Semi-structured Interview</h2>
+    		<h2 class="subtitle2" style="margin-top:-30px">Semi-structured Interview</h2>
     			<p class= "content2">
     				We conducted a total of seven user interviews in order to gain some qualitative insight into some common frustrations with waste sorting. The user interviews were conducted in three different areas in Seattle: downtown, University Village, and the Husky Union Building (HUB) at UW. Though our sample size was small, we got a fairly diverse sample which included parents, students, people who are environmentally conscious, and people who aren’t. 
     			</p>
@@ -155,14 +164,15 @@
 
     	<div class= "horizontal630 grey"> 
     		<h1 class="title1 center"> Design Decisions</h1>
-    		<p class= "content3">
-    		We designed under an assumption that we have a database about waste sorting methods for different items. For location-based information, we only have data for participating businesses. Also we are only focusing on Seattle's waste sorting practices because recycling laws vary across state. 
+    		<p class= "content2" style="margin-top:-20px">
+    		We designed our solution under an assumption that we have a database about waste sorting methods for different items. For location-based information, we only have data for participating businesses. Also we are only focusing on Seattle's waste sorting practices because recycling laws vary across state. 
     		</p>
+    		<div class="block40"></div>
     		<h2 class="subtitle2"> Simple </h2>
     			<p class= "content2">
     			The app is not intended to engage users - the primary goal is to help users identify trash. We have to keep the app easy and simple so the users can complete the task in minimum steps. Also, the information should be presented in an easily digestible manner so the users can read content quickly.  
     			</p>
-    		<div class="block60"></div>
+    		<div class="block40"></div>
     		<h2 class="subtitle2"> Refreshing & Fun </h2>
     			<p class= "content2">
     			The app should invoke a fun, positive, and fresh mood. We decided to use bright blues and greens to keep the theme of earth-friendly environmentalism. The incentive system shuold be unobstrusive and fun.   
@@ -193,23 +203,29 @@
     		<p class= "content3">
     			The key part to the forum is active discussion among the users. We want   more people to write an answer and ask questions. However, the participants took a while to find "Answer" button. We decided to make the button pop more with design hierarchy. 
     		</p>
-    		<img src="img/iteration3.png" height=auto; style="margin-top:100px; margin-right:500px; margin-left:170px;float:left;">
+    		<img src="img/iteration3.png" height=auto; style="margin-top:100px; margin-right:500px; margin-left:150px;float:left;">
     		<h2 class="subtitle3"> Introduce GPS Poster feature differently </h2>
     		<p class= "content3">
-    			One thing we struggled most about was making GPS Poster feature intuitive to users, and the participants did find the feature confusing. Because there's nothing else similar (that we are aware of), we iterated on the simplest flow. Instead of asking where the user is with a pop-up screen, the app guesses the user's location and brings up the result. It does not matter whether the guess is accurate, because the goal is to inform users the functionality of this feature. 
+    			One thing we struggled most about was making GPS Poster feature intuitive to users, as the participants found the feature confusing. Because there's nothing else similar (that we are aware of), we iterated on the simplest flow. Instead of asking where the user is using a pop-up screen, the app guesses the user's location and brings up the result. It does not matter whether the guess is accurate, because the goal is to inform users the functionality of this feature. 
     		</p>
-    		<img src="img/iteration4.png" height=auto; style="margin-top:120px; margin-right:500px; margin-left:60px;float:left;">
+    		<div class="imgcontainer"> 
+    				<div class="bodyimg"> <img src="img/iteration4.png" height="auto"> </div>
+    			</div>
     	</div>
 
     	<div class= "horizontal470"> 
     		<h1 class="title1 center"> Reflection & Final Direction</h1>
-    		<ul class= "reflection" style="list-style-type:circle">
-			  
-			  <li>It was difficult not to fall into a rabbit hole and think about the solution before doing enough research. I realized the importance of conducting observation and user reseach with unbiased attitude. </li>
-			  <li>Iteration leads to success! Our team was glad to start early on the high-fidelity prototypes and start user testing early. I was surprised at the improvements after one iteration. </li>
-			</ul>
+    	
+			 <p class= "content2">
+    			It was difficult not to fall into a rabbit hole and think about the solution before doing enough research and ideation. I realized the importance of conducting user reseach with anunbiased attitude.
+    		</p>
     		<p class= "content2">
-    			If I had more time, I would investigate more about the difference between recycling practices at home vs. public. Pain points specific to certain situations might spur another solution that is non-app based.
+    			Iteration leads to success! Our team was glad to start early on the high-fidelity prototypes and start user testing early. I was surprised at the improvements after one iteration. 
+    		</p>
+			 
+			 
+    		<p class= "content2">
+    			If I had more time, I would investigate more about the difference between recycling practices at home vs. public. Pain points specific to certain situations might spur another solution, perhaps non-app based one. Also, I would like to improve the look and feel of the app, especially the Forum and Scan Results screen.
     		</p>
     		
     	</div>
