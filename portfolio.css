@@ -424,7 +424,8 @@ small {
 
 }
 
-
+.site-footer { padding: 0px 100px;}
+.site-footer p { margin: 30px; font-size: 14px;}
 
 
 

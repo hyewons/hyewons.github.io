@@ -1140,9 +1140,9 @@ nav[role="navigation"] {
 
     /*===== Footer =====*/
     .site-footer { padding: 40px 80px; }
-    .site-footer p { margin: 0; font-size: 10px;display: inline;}
+    
     .footer-text { float: left; }
-    .footer-misc { float: right; }
+   
     
     /*===== Paginations =====*/
 
@@ -1366,7 +1366,7 @@ nav[role="navigation"] {
   
     /*===== About =====*/
     .profilepic {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     margin-left: 200px;
     margin-top: -180px;
 	}
@@ -1420,7 +1420,9 @@ nav[role="navigation"] {
     h6 {
         font-size: 1rem;
     }
-    .site-footer { padding: 0px 80px;  }
+    /*.site-footer { padding: 0px 80px;  }*/
     .site-footer p { margin: 30px; font-size: 14px;display: inline;}
+    .footer-text { float: left; }
+   
    
 }
