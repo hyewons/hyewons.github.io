@@ -691,14 +691,14 @@ nav[role="navigation"] {
 }
 .blog_item.three {
 	float: left;
-	background-image: url('img/foodwaste.png');
+	background-image: url('img/uwcover.png');
 	background-size: cover; 
 	width: 50%;
 
 }
 .blog_item.four {
 	float: right;
-	background-image: url('img/streamlyzer.jpg');
+	background-image: url('img/streamlyzer.png');
 	background-size: cover; 
 	width: 50%;
 }

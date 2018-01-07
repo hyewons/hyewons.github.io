@@ -82,7 +82,6 @@ small {
 }
 
 
-
 /*=================================*/
 /* Main content
 /*=================================*/
@@ -99,6 +98,9 @@ small {
 }
 .uw {
 	background-color: #4b3181;
+}
+.sw {
+	background-color:/*#005986;*/#fff;
 }
 #topimg {
 	width: 1156px;
@@ -131,7 +133,7 @@ small {
 }
 .horizontal580 {
 	width: 100%;
-	height: 580px;
+	height: 600px;
 	padding: 0px;
 	margin: 0px;
 	z-index: 3;
@@ -186,7 +188,7 @@ small {
 }
 .horizontal3500 {
 	width: 100%;
-	height: 3500px;
+	height: 3550px;
 	padding: 0px;
 	margin: 0px;
 }
