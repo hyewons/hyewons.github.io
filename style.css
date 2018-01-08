@@ -773,7 +773,7 @@ nav[role="navigation"] {
     overflow: hidden;
 }
 /*===== Footer =====*/
-
+.site-footer { padding: 0px 10px; }
 
 /*=================================*/
 /* About
@@ -1242,7 +1242,7 @@ nav[role="navigation"] {
 	/*===== About =====*/
 	.profilepic {
 	float: left;
-    margin-left: 150px;
+    margin-left: 170px;
     max-width: 30%;
     margin-top:-170px;
     margin-bottom: 170px;
@@ -1253,13 +1253,13 @@ nav[role="navigation"] {
 	float: right;
 	margin-right: 195px;
 	max-width: 36%;
-	margin-top: -187px;
+	margin-top: -173px;
 	margin-bottom: 60px;
 
 	}
 
 	.profile-text p{
-	font-size: .89rem;
+	font-size: .9rem;
 	}
 
 	.intro p{
@@ -1270,14 +1270,14 @@ nav[role="navigation"] {
     
     .blog_item h1 {
         width: 100%;
-        font-size: 2.6rem;
+        font-size: 3.1rem;
     }
     .blog_item h5 {
     	width: 100%;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
      .blog_item{
-        padding: 150px 85px 220px;   
+        padding: 200px 100px 220px;   
     }
     .blog_item.one , .blog_item.three {
     	width: 50%;
@@ -1325,7 +1325,7 @@ nav[role="navigation"] {
     .site-footer p { margin: 0; font-size: 14px;display: inline;}
    }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440.5px) {
 
     /*===== Structures =====*/
     .site-header,
@@ -1355,7 +1355,7 @@ nav[role="navigation"] {
     /*===== Navigations =====*/
     .cd-nav-trigger {
         top: 94px;
-        right: 140px;
+        right: 300px;
     }
     .cd-nav .cd-navigation-wrapper {
         padding: 60px 140px 60px calc(58px + 140px);
@@ -1366,18 +1366,20 @@ nav[role="navigation"] {
   
     /*===== About =====*/
     .profilepic {
-    margin-bottom: 25px;
     margin-left: 200px;
     margin-top: -180px;
 	}
 
 	.profile-text {
-	margin-bottom: 60px;
-	margin-right: 200px;
+	margin-top: -140px;
+	margin-right: 320px;
 	}
 
     .intro p{
     	font-size: 19px;
+    }
+    .bodyabout p{
+    	width: 620px;
     }
 
     /*===== Projects =====*/
@@ -1394,7 +1396,7 @@ nav[role="navigation"] {
         padding: 200px;
     }
     .blog_item h5 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     /*===== Main Styles =====*/
     h1 {
