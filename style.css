@@ -676,7 +676,7 @@ nav[role="navigation"] {
 }
 .blog_item.one {
 	float: left;
-	background-image: url('img/Racoonz.png');
+	background-image: url('img/tab_cover.png');
 	background-size: cover; 
 	width: 50%;
 
@@ -684,7 +684,7 @@ nav[role="navigation"] {
 }
 .blog_item.two {
 	float: right;
-	background-image: url('img/tab_cover.png');
+	background-image: url('img/Racoonz.png');
 	background-size: cover; 
 	width: 50%;
 	
