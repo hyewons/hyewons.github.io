@@ -1325,7 +1325,7 @@ nav[role="navigation"] {
     .site-footer p { margin: 0; font-size: 14px;display: inline;}
    }
 
-@media only screen and (min-width: 1440.5px) {
+@media only screen and (min-width: 1600px) {
 
     /*===== Structures =====*/
     .site-header,
@@ -1355,7 +1355,7 @@ nav[role="navigation"] {
     /*===== Navigations =====*/
     .cd-nav-trigger {
         top: 94px;
-        right: 300px;
+        right: 200px;
     }
     .cd-nav .cd-navigation-wrapper {
         padding: 60px 140px 60px calc(58px + 140px);

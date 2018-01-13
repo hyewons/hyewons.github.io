@@ -25,8 +25,15 @@
   	gtag('js', new Date());
 
   	gtag('config', 'UA-107368825-1');
+	
 	</script>
-      
+<style>
+ul.demo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+</style>    
 </head>
 
 <body>
@@ -80,41 +87,42 @@
     			
     		</div>
     	</div>
-    	<div class= "horizontal1030">
+    	<div class= "horizontal1150">
     		<h1 class="title1 center"> User Journey</h1>
+    		<p class= "content2" style="margin-top:-20px">
+    				We mapped out an end-to end user journey to visualize areas where frustrations might arise. The sources of frustrations are marked in red. 
+    			</p>
     		<div class="imgcontainer"> 
-    				<div class="bodyimg"> <img src="img/userjourney.png" height="auto"> </div>
+    				<div class="bodyimg"> <img src="img/userjourney.png" height="auto" style="margin-top:-10px"> </div>
     		</div>
     		
-    		<p class= "caption center">Anyone would relate to this user journey...</p>
     	</div>
     		
     	
-    	<div class= "horizontal1630 grey"> 
+    	<div class= "horizontal1850 grey"> 
     		<h1 class="title1 center"> User Research</h1>
-
     			<p class= "content2">
-    				Since there exists many frustrating moments at different stages, we needed to narrow down the project scope through user research. We conducted open-ended interviews with frequent diners, including former waiters, to understand their habits & experience from both sides. After uncovering common frustrations (which are ordering and billing process), we sent out online survey with a focus on those frustrations. The insights from the research were critical in narrowing down on designing a solution for a better billing experience. 
+    				<span style="font-weight:600">To narrow down the project scope, we used interviews, contextual inquiry and survey data.</span> We conducted 5 semi-structured interviews with frequent diners, including former waiters, to understand their habits & experience from both sides. For contextual inquiry, we were able to observe a big group meal from an end-to-end process. After uncovering common frustrations about ordering and billing process, we sent out online survey with a focus on those. The insights from the research were critical in narrowing down on designing a solution for a better billing experience. 
     			</p>
     			<div class="imgcontainer"> 
-    				<div class="bodyimg"> <img src="img/userinterview.jpg" height="300"> </div>
-    				<div class="bodyimg"> <img src="img/interviewnotes.jpg" height="300"> </div>
-    				<div class="bodyimg"> <img src="img/survey.png" height="300" width="400"> </div>
-    			</div>
-    			
-
-    		<h2 class="title2 center">Project Scope</h2>
-    			<p class= "content3 center">
-    			<span style="font-weight:400">Q. Which of the following situations would you want your waiter's interaction?</span>
-    			</p>
-    			<div class="imgcontainer"> 
-    				<div class="bodyimg2"> <img src="img/scope.png" height="auto"> </div>
+    				<div class="bodyimg"> <img src="img/userinterview.png" height="300px"> </div>
+    				<div class="bodyimg"> <img src="img/interviewnotes.png" height="300px"> </div>
+    				<div class="bodyimg"> <img src="img/survey.png" height="300px"> </div>
     			</div>
     			
     		<h2 class="title2 center">Key Takeaways</h2>
     			<div class="imgcontainer"> 
-    				<div class="bodyimg2"> <img src="img/researchfinding.png" height="auto"> </div>
+    				<div class="bodyimg2"> <img src="img/slice_finding.png" height="auto"> </div>
     			</div>
+
+    		<h2 class="title2 center">Project Scope</h2>
+    		<p class="content3">
+    			Based on our findings, waiter is appreciated during ordering as it provides positive human interaction but not when it comes to payment. Therefore, we need to focus on giving users more control over the billing process.
+    			</p>
+    			<div class="imgcontainer"> 
+    				<div class="bodyimg2"> <img src="img/opportunity.png" height="auto"> </div>
+    			</div>
+    		
     	</div>
     	<div class= "horizontal1150">
     		<h1 class="title1 center">Competitive Analysis</h1>
@@ -127,44 +135,56 @@
     		
     	</div>
 
-    	<div class= "horizontal630 grey">
+    	<div class= "horizontal900 grey">
     		<h1 class="title1 center"> Solution</h1>
     		<p class= "content2">
-    				We iterated on the service concept, and made sure it aligns with our users' needs and values from the research. Our final solution is a mobile app that improves efficiency of the billing process by enabling the users to take care of the bill by themselves and thus helping the waiters to focus more on other tasks. Our solution is under two assumptions:
+    				We iterated on the service concept, and made sure it aligns with our users' needs and values from the research. Our final solution is a mobile app that improves efficiency of the billing process by enabling the users to take care of the bill by themselves and thus helping the waiters to focus more on other tasks. 
     			</p>
-    		<div class="block40"></div>
-    		<h4 class="subtitle2 "> Assumption #1</h4>
+    		<div class="imgcontainer"> 
+    				<div class="bodyimg"> <img src="img/solution_slice.png" height="auto"> </div>
+    			</div>
+    		
+    		</p>
+    		<h4 class="subtitle2" style="margin-top:-110px"> Assumption #1</h4>
     		<p class= "content2" style="margin-top: -30px">
-    			Diners eating at high-end, expensive restaurants will not be facing billing problems discussed above. The customer service will be top-notch in those restaurants and diners are most likely to have discussed how the bill will be split in advance of the meal.Therefore, we are targeting users who dine at casual, average-priced sit-down restaurants.
+    			We are assuming diners eating at high-end, expensive restaurants will be receiving top-notch service by their waiter. Therefore, we are targeting users who dine at casual, average-priced sit-down restaurants.
     		</p>
     		<div class="block40"></div>
     		<h4 class="subtitle2"> Assumption #2</h4>
     		<p class= "content2" style="margin-top: -30px">
-    			Restaurants will have advanced POS system so that they can install our software to their POS system, which enables connection with the user’s phone. When connected, the POS data (order details & bill) will be sent directly to the user’s phone.
+    			Restaurants will have advanced POS system so user's phone can connect to the restaurant. When connected, the POS data (order details & bill) will be sent directly to the user’s phone.
     		</p>
     	</div>
-    	<div class= "horizontal900"> 
+    	<div class= "horizontal970" height="auto"> 
     		<h1 class="title1 center"> Paper Prototype</h1>
+    		<p class= "content2 center" style="margin-top:-20px">
+    				We chose to create paper prototypes to quickly test and verify our idea with the users.
+    			</p>
     		<div class="imgcontainer"> 
-    				<div class="bodyimg1"> <img src="img/paperprototype.png" height="700" style="margin-top:-30px"> </div>
+    				<div class="bodyimg1"> <img src="img/paperprototype.png" height="700" style="margin-top:0px"> </div>
     		</div>
     	</div>
-    	<div class= "horizontal780 grey"> 
+    	<div class= "horizontal970 grey"> 
     		<h1 class="title1 center"> Usability Testing</h1>
     		<p class="content2"> 
-    			We tested our paper prototypes by conducting guerrilla usability testing and luckily, we received diverse feedbacks. The participants were asked to complete “Pay per item” scenario. They provided feedbacks on the user flow, content and discoverability of UI choices. Some feedbacks include too much clicking, misleading wording on buttons and diffculty of adjusting tip with slider interaction.
+    			We tested our paper prototypes by conducting guerrilla usability testing and luckily, we received diverse feedbacks. The participants were asked to complete “Pay by item” and "Split evenly" feature in a hypothetical scenario. They provided feedbacks on the user flow, content and discoverability of UI choices. 
     		</p> 
+
+    		<div class="imgcontainer"><img src="img/usability_finding.png" height="auto" style="margin-top:110px"></div>
     		<div class="imgcontainer"> 
-    				<div class="bodyimg"> <img src="img/usertesting.jpg" height="300" style="margin-top:10px"> </div>
-    				<div class="bodyimg"> <img src="img/userfeedback.jpg" height="300" style="margin-top:10px"> </div>
+    				<div class="bodyimg"> <img src="img/usertesting.png" height="300" style="margin-top:-190px"> </div>
+    				<div class="bodyimg"> <img src="img/userfeedback.png" height="300" style="margin-top:-190px"> </div>
     		</div>
     		<p class="content2" style="margin-top:-120px"> 
-    			Based on our test findings, we refined the app user flow and changed wording to what the users would actually use in a restaurant setting. Then, we created additional scenarios for certain edge cases.  
+    			Based on our test findings, we refined the user flow and design elements and reexamined user's language in a restaurant context. Then, we created additional scenarios for certain edge cases such as unpaid items and sharing a multiple-quantity item. 
     		</p> 
     	</div>
     	<div class= "horizontal780"> 
       		<h1 class="title1 center"> Scenario Walkthrough</h1>
-    		<p class= "content_left_big" >
+      		<figure>
+      			<img src="img/jane.png" height="120px" style="margin-top:190px; margin-right:240px; margin-left:280px;float:left;">
+      		</figure>
+    		<p class= "content_left_big" style="margin-top: -200px; margin-right: 400px; padding: 200px;" >
     				Jane is dining out with her best friends, Ian and Paul at Little Thai today. They get seated and the waiter comes to the table to take the order. Along with the order, Jane, who is the "bill starter" today, launches Slice and gives her id number to the waiter. 
     		</p>
     		<video class="myVideo" loop="" height="600" style="margin-top:90px" autoplay="autoplay" webkit-playinline="">
@@ -172,7 +192,10 @@
       		</video> 
       	</div>
       	<div class= "horizontal580 grey"> 
-    		<p class= "content_right_big" style="margin-left: 100px" >
+      		<figure>
+      			<img src="img/waiter.png" height="120px" style="margin-top:140px; margin-right:350px; margin-left:940px;float:left;">
+      		</figure>
+    		<p class= "content_right_big" style="margin-left: 100px; margin-top:-170px" >
     				The waiter inputs Jane's id number to the POS system and successfully checks her in. He then adds order items to the bill. 
     		</p>
     			<img class="gif_left" src="img/waiter.gif" height="500">
@@ -180,7 +203,10 @@
     		
       	</div>
       	<div class= "horizontal580"> 
-    		<p class= "content_left_big" >
+      		<figure>
+      			<img src="img/jane.png" height="120px" style="margin-top:140px; margin-right:240px; margin-left:280px;float:left;">
+      		</figure>
+    		<p class= "content_left_big" style="margin-top: -200px; margin-right: 400px; padding: 200px;">
     				The best friends are done eating. Instead of calling the waiter for the bill, Jane launches Slice and adds "Best Friends" group to start bill splitting. 
     		</p>
     		<video class="myVideo" loop="" height="600" style="margin-top:0px" autoplay="autoplay" webkit-playinline="">
@@ -189,14 +215,20 @@
     		
       	</div>
       	<div class= "horizontal580 grey"> 
-    		<p class= "content_left_big" >
-    				Paul and Ian receive notification that they've been added to bill and agree to join the bill.
+      		<figure>
+      			<img src="img/ian.png" height="120px" style="margin-top:140px; margin-right:240px; margin-left:280px;float:left;">
+      		</figure>
+    		<p class= "content_left_big" style="margin-top: -200px; margin-right: 400px; padding: 200px;" >
+    				Jane's friend Ian receives a notification that he has been added to the bill at Little Thai. Ian agrees to join the bill.
     		</p>
     		<img class="gif_right" src="img/ianjoin.gif" height="540">
     			
       	</div>
       	<div class= "horizontal580"> 
-    		<p class= "content_left_big" >
+      		<figure>
+      			<img src="img/jane.png" height="120px" style="margin-top:110px; margin-right:240px; margin-left:280px;float:left;">
+      		</figure>
+    		<p class= "content_left_big" style="margin-top: -200px; margin-right: 400px; padding: 200px;" >
     				The best friends view the bill and decide to split the bill by item. Jane shares Thai Noodles with Ian and Paul, selects two portion of Mixed Vegetables and one Crab Delight. After she confirms the subtotal, Jane tips the waiter and finishes her total payment of $39.65. 
     		</p>
     		<video class="myVideo" loop="" height="600" style="margin-top:0px" autoplay="autoplay" webkit-playinline="">
@@ -205,10 +237,13 @@
     			
       	</div>
       	<div class= "horizontal580 grey"> 
-    		<p class= "content_left_big" >
+      		<figure>
+      			<img src="img/ian.png" height="130px" style="margin-top:100px; margin-right:240px; margin-left:280px;float:left;">
+      		</figure>
+    		<p class= "content_left_big" style="margin-top: -160px; margin-right: 400px; padding: 160px; margin-left:70px" >
     				Everyone is done with their payment, but some item is left unpaid. Ian forgot to pay for his Grilled Salmon! Ian selects the item directly on the screen and makes his payment to avoid charge on Jane's card. 
     		</p>
-    		<video class="myVideo" loop="" height="540" style="margin-top:38px; margin-right:40px;" autoplay="autoplay" webkit-playinline="">
+    		<video class="myVideo unpaid" loop="" height="540" style="margin-top:38px; margin-right:40px;" autoplay="autoplay" webkit-playinline="">
         		<source src="video/unpaid.mp4" type="video/mp4">     
       		</video> 
     		
@@ -229,41 +264,41 @@
     		<p class= "content2">
     			We realized that the most important function of this real-time interactive app lies on solving tricky scenarios that can occur in bill splitting situations.
     		</p>
-    		<div class="videocontent">
-	    		<h3 class="subtitle2"> Challenge: Jane and Paul shared one Mixed Vegetable</h3>
+    		<div class="block60"></div>
+    		<h3 class="subtitle2"> Challenge: Jane and Paul shared one Mixed Vegetable</h3>
 	    		<p class= "content2">
 	    			The first version (left) solves selecting from multiple quantity item. But what if Jane had one Mixed Vegetable and shared the second one with Paul? This scenario prompted the second version (middle)	where the drop down arrow seperates Mixed Vegetables into three items. This looked like the most ideal version, but after some evaluation, the drop down box is not intuitive and takes up too much space. We wanted an interaction that keeps the simple interaction of the first version and accomodates these edge case scenarios. We finalized with the third screen (right), where users are given the simple interaction as a default and additional options to split item manually. 
 	    		</p>
-	    		<video class="myVideo2" loop="" height="500" style="margin-top:160px; margin-left: 100px;" autoplay="autoplay" webkit-playinline="">
+    		<div class="videocontent">
+	    		<video class="myVideo2" loop="" height="500" style="margin-top:130px; margin-left: 100px;" autoplay="autoplay" webkit-playinline="">
 	        		<source src="video/quantity_click.mp4" type="video/mp4">     
 	      		</video> 
-	      		<video class="myVideo2" loop="" height="500" style="margin-top:160px; margin-left: 420px;" autoplay="autoplay" webkit-playinline="">
+	      		<video class="myVideo2" loop="" height="500" style="margin-top:130px; margin-left: 420px;" autoplay="autoplay" webkit-playinline="">
 	        		<source src="video/quantity_share.mp4" type="video/mp4">     
 	      		</video> 
-	      		<video class="myVideo2" loop="" height="500" style="margin-top:160px; margin-left: 750px;" autoplay="autoplay" webkit-playinline="">
+	      		<video class="myVideo2" loop="" height="500" style="margin-top:130px; margin-left: 750px;" autoplay="autoplay" webkit-playinline="">
         		<source src="video/custom.mp4" type="video/mp4">     
       			</video>  
 	      	</div>
 
-	      	<div class="videocontent">
-	    		<h3 class="subtitle2"> Challenge: Grilled Salmon is left unpaid</h3>
+	      	<h3 class="subtitle2"> Challenge: Grilled Salmon is left unpaid</h3>
 	    		<p class= "content2">
 	    			Users paying all items on the bill perfectly is an ideal scenario. However, there are always human errors. What if some item is not paid and the bill starter gets charged for someone else's food? Then no one will want to be the bill starter. This was a critical problem to solve. The first version (left) inhibits the users from payment until all items have been claimed. However, this creates another "waiting" moment that we wanted to remove in the first place. We finalized with the second version (right) where everyone is shown the unpaid item(s) immediately after their payment so they can settle the issue at the spot. 
 	    		</p>
-	    		<video class="myVideo2" loop="" height="500" style="margin-top:150px; margin-left: 200px;" autoplay="autoplay" webkit-playinline="">
+	      	<div class="videocontent">
+	    		<video class="myVideo2" loop="" height="500" style="margin-top:130px; margin-left: 200px;" autoplay="autoplay" webkit-playinline="">
 	        		<source src="video/unpaid1.mp4" type="video/mp4">     
 	      		</video> 
-	      		<video class="myVideo2" loop="" height="500" style="margin-top:150px; margin-left: 580px;" autoplay="autoplay" webkit-playinline="">
+	      		<video class="myVideo2" loop="" height="500" style="margin-top:130px; margin-left: 580px;" autoplay="autoplay" webkit-playinline="">
 	        		<source src="video/unpaid2.mp4" type="video/mp4">     
 	      		</video> 
 	    		
-	    	</div>
-    		
+	    	</div>	
     	</div>
     	<div class= "horizontal470"> 
     		<h1 class="title1 center"> Reflection &Future Iteration</h1>
     		<p class= "content2">
-    			Sharing a meal is about getting together, without tech in between. We had to streamline the app to minimize screen time during the meal and it required a lot of logistic considerations on both stakeholders.
+    			Sharing a meal is about getting together, without tech in between. We had to streamline the app to minimize screen time during the meal and it required a lot of logistic considerations on both stakeholders. Also we made sure the solution lets diners to focus on the meal and comes into play only when diners want to pay. 
     		</p>
     		<p class= "content2">
     			 As my first time working with someone remotely, my teammates and I developed few methods that allow us to collaborate in an efficient fashion. We iterated on each other’s ideas to combine all perspectives, and always seek answers from our users when we cannot find one on our own.	
