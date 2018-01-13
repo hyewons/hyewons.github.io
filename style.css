@@ -1229,7 +1229,7 @@ nav[role="navigation"] {
     /*===== Navigations =====*/
     .cd-nav-trigger {
         top: 94px;
-        right: 140px;
+        right: 170px;
     }
     .cd-nav .cd-navigation-wrapper {
         padding: 60px 140px 60px calc(58px + 140px);
